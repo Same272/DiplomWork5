@@ -223,7 +223,7 @@ async def create_new_offer(id: int, count: int):
         )
         with open(result.photo, "rb") as photo:
             bot.send_photo(
-                chat_id=-4592099015,
+                chat_id=-4785366304,
                 photo=photo,
                 caption=message,
                 parse_mode="Markdown"
